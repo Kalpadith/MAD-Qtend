@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MAD_QTEND</string>
+    <string name="profile">Profile</string>
+    <string name="update_attendance">Update Attendance</string>
+    <string name="search_emp_attendance">Search</string>
+    <string name="Delete_details">Delete Details</string>
+    <string name="topic_Update">Update Attendance Details</string>
+    <string name="Attendance">Attendance</string>
+</resources>
