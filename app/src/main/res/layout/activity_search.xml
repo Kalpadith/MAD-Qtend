@@ -6,10 +6,10 @@
     android:layout_height="match_parent"
     android:background="@drawable/addemp"
     android:orientation="vertical"
-    tools:context=".attendance">
+    tools:context=".Search">
 
     <EditText
-        android:id="@+id/topic_1"
+        android:id="@+id/topic_V"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginEnd="-1dp"
@@ -18,13 +18,13 @@
         android:ems="10"
         android:gravity="center"
         android:inputType="textPersonName"
-        android:text="@string/add_emp_attendance"
+        android:text="Employee Attendance Details"
         android:textColor="#FFFFFF"
         android:textSize="24sp" />
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="57dp" />
+        android:layout_height="70dp" />
 
     <TableLayout
         android:layout_width="match_parent"
@@ -39,7 +39,7 @@
                 android:layout_width="149dp"
                 android:layout_height="58dp"
                 android:gravity="left|center_vertical"
-                android:text="@string/emp_id"
+                android:text="Employee ID"
                 android:textColor="#000000"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -49,7 +49,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:ems="10"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:text="EMP0001" />
         </TableRow>
 
         <TableRow
@@ -71,7 +72,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:ems="10"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:text="W.A.Ishan" />
 
         </TableRow>
 
@@ -84,7 +86,7 @@
                 android:layout_width="152dp"
                 android:layout_height="wrap_content"
                 android:gravity="left|center_vertical"
-                android:text="@string/emp_ot_hrs"
+                android:text="OT hrs"
                 android:textColor="#000000"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -94,7 +96,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:text="20" />
 
         </TableRow>
 
@@ -107,7 +110,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="left|center_vertical"
-                android:text="@string/emp_work_days"
+                android:text="Work days"
                 android:textColor="#000000"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -117,7 +120,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:text="30" />
 
         </TableRow>
 
@@ -130,7 +134,7 @@
                 android:id="@+id/textViewv5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/emp_no_pay_days"
+                android:text="No pay Days"
                 android:textColor="#000000"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -140,39 +144,24 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="textPersonName" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+                android:inputType="textPersonName"
+                android:text="0" />
 
         </TableRow>
+
     </TableLayout>
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="68dp" />
+        android:layout_height="63dp" />
 
-    <LinearLayout
+    <TextView
+        android:id="@+id/textViewv8"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="155dp"
-            android:layout_height="66dp"
-            android:layout_marginStart="120dp"
-            android:layout_marginLeft="120dp"
-            android:layout_marginTop="44dp"
-            android:layout_marginEnd="120dp"
-            android:layout_marginRight="120dp"
-            android:layout_marginBottom="208dp"
-            android:text="@string/btn_add"
-            android:textSize="16sp"
-            android:textStyle="bold" />
-    </LinearLayout>
+        android:layout_height="98dp"
+        android:text="***An Employee has only 20 leaves per year. Other leave days add as No pay Days"
+        android:textColor="#E30F0F"
+        android:textSize="16sp"
+        android:textStyle="bold" />
 
 </LinearLayout>
-

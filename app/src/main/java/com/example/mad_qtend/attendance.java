@@ -20,7 +20,7 @@ public class attendance extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.options, menu);
+        inflater.inflate(R.menu.options_ish_emp, menu);
         return super.onCreateOptionsMenu(menu);
 
     }
@@ -31,9 +31,25 @@ public class attendance extends AppCompatActivity {
         if (id == R.id.action_profile){
 
         }
+        if (id == R.id.action_home){
+            Intent updateIntent = new Intent(attendance.this,Update_Attendance.class);
+            startActivity(updateIntent);
+        }
         if (id == R.id.action_update){
         Intent updateIntent = new Intent(attendance.this,Update_Attendance.class);
         startActivity(updateIntent);
+        }
+        if (id == R.id.action_delete){
+            Intent deleteIntent = new Intent(attendance.this,Delete_Attendance.class);
+            startActivity(deleteIntent);
+        }
+        if (id == R.id.action_mark){
+            Intent markIntent = new Intent(attendance.this,Mark_Attendance.class);
+            startActivity(markIntent);
+        }
+        if (id == R.id.s1){
+            Intent searchIntent = new Intent(attendance.this,Search.class);
+            startActivity(searchIntent);
         }
 
         return super.onOptionsItemSelected(item);

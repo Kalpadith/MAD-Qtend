@@ -9,12 +9,12 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-public class Update_Attendance extends AppCompatActivity {
+public class Delete_Attendance extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_update_attendance);
+        setContentView(R.layout.activity_delete_attendance);
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -30,26 +30,25 @@ public class Update_Attendance extends AppCompatActivity {
 
         }
         if (id == R.id.action_home){
-            Intent updateIntent = new Intent(Update_Attendance.this,Update_Attendance.class);
+            Intent updateIntent = new Intent(Delete_Attendance.this,Update_Attendance.class);
             startActivity(updateIntent);
         }
         if (id == R.id.action_update){
-            Intent updateIntent = new Intent(Update_Attendance.this,Update_Attendance.class);
+            Intent updateIntent = new Intent(Delete_Attendance.this,Update_Attendance.class);
             startActivity(updateIntent);
         }
         if (id == R.id.action_delete){
-            Intent deleteIntent = new Intent(Update_Attendance.this,Delete_Attendance.class);
+            Intent deleteIntent = new Intent(Delete_Attendance.this,Delete_Attendance.class);
             startActivity(deleteIntent);
         }
         if (id == R.id.action_mark){
-            Intent markIntent = new Intent(Update_Attendance.this,Mark_Attendance.class);
+            Intent markIntent = new Intent(Delete_Attendance.this,Mark_Attendance.class);
             startActivity(markIntent);
         }
         if (id == R.id.app_bar_search){
-            Intent searchIntent = new Intent(Update_Attendance.this,Search.class);
+            Intent searchIntent = new Intent(Delete_Attendance.this,Search.class);
             startActivity(searchIntent);
         }
-
         return super.onOptionsItemSelected(item);
     }
 }

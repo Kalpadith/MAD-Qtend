@@ -6,4 +6,18 @@
     <string name="Delete_details">Delete Details</string>
     <string name="topic_Update">Update Attendance Details</string>
     <string name="Attendance">Attendance</string>
+    <string name="emp_name">Employee Name</string>
+    <string name="go_home">Home</string>
+    <string name="mark_attendance">Mark Attendance</string>
+    <string name="add_emp_attendance">Add Employee Attendance Details</string>
+    <string name="emp_id">Employee ID</string>
+    <string name="emp_ot_hrs">OT hours</string>
+    <string name="emp_work_days">Work Days</string>
+    <string name="emp_no_pay_days">No pay Days</string>
+    <string name="btn_add">Add Details</string>
+    <string name="delete_emp_attendance">Delete Attendance Details</string>
+    <string name="btn_delete">Delete</string>
+    <string name="mark_emp_attendance">Mark Attendance</string>
+    <string name="mark">Mark</string>
+    <string name="mark_string">Mark Attendance</string>
 </resources>
