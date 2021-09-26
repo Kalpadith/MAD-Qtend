@@ -20,4 +20,5 @@
     <string name="mark_emp_attendance">Mark Attendance</string>
     <string name="mark">Mark</string>
     <string name="mark_string">Mark Attendance</string>
+    <string name="btn_open">View Details</string>
 </resources>

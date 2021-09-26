@@ -45,7 +45,7 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/editTextTextPersonNamev9"
+                android:id="@+id/add_emp_ID"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:ems="10"
@@ -68,7 +68,7 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/editTextTextPersonNamev10"
+                android:id="@+id/add_emp_NAME"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:ems="10"
@@ -92,7 +92,7 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/editTextTextPersonNamev11"
+                android:id="@+id/add_emp_OTHRS"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -116,7 +116,7 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/editTextTextPersonNamev12"
+                android:id="@+id/add_emp_WORKDAYS"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -140,7 +140,7 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/editTextTextPersonNamev14"
+                android:id="@+id/add_emp_NOPAYDAYS"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
